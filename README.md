@@ -1,7 +1,6 @@
 # Student Performance Tracker
 
-Proyek ini adalah tugas kuliah untuk mata kuliah **Pemrograman Python**  
-dengan materi **Integrasi OOP dan Modularisasi** menggunakan bahasa **Python**.  
+Proyek ini adalah tugas kuliah untuk mata kuliah **Pemrograman Python** dengan materi **Integrasi OOP dan Modularisasi** menggunakan bahasa **Python**.  
 
 Program ini dibuat untuk membantu dosen atau asisten dalam mencatat, menghitung, dan menampilkan **rekap nilai mahasiswa** secara sederhana melalui **CLI (Command Line Interface)**.
 
