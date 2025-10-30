@@ -26,24 +26,24 @@ student_performance_tracker/
 ├── __pycache__/          
 │
 ├── data/                 
-│   ├── attendance.csv    # Data kehadiran
-│   └── grades.csv        # Data nilai
+│   ├── attendance.csv    
+│   └── grades.csv        
 │
-├── out/                  # Output Laporan
+├── out/                  
 │   ├── report.md         
 │   └── report.html
 │
-├── tracker/              # Core Logic / Python Package
-│   ├── __init__.py       # Membuat folder 'tracker' menjadi Python Package
-│   ├── __main__.py       # Entry point ketika dijalankan sebagai module (python -m tracker)
-│   ├── mahasiswa.py      # Logika Entitas: Struktur data Mahasiswa (NIM, Nama)
-│   ├── penilaian.py      # Logika Perhitungan: Fungsi murni (pure functions) untuk menghitung nilai akhir, status kelulusan, dll.
-│   ├── rekap_kelas.py    # Logika Orkestrasi: Membaca data, menggabungkan, dan memanggil fungsi perhitungan. (Garis Pemisah Utama)
-│   └── report.py         # Logika Pelaporan: Membuat/menulis file HTML/MD di folder 'out/'.
+├── tracker/              
+│   ├── __init__.py       
+│   ├── __main__.py       
+│   ├── mahasiswa.py      
+│   ├── penilaian.py      
+│   ├── rekap_kelas.py    
+│   └── report.py         
 │
-├── app.py                # Main Controller / Command Line Interface (CLI)
-├── README.md             # Dokumentasi proyek
-└── requereiments.txt     # Daftar dependency Python (misalnya pandas, Jinja2)
+├── app.py               
+├── README.md             
+└── requereiments.txt     
 
 ```
 
